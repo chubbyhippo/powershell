@@ -3,7 +3,7 @@
 ```
 rm -fo -r
 ```
-## display installed apps
+## display installed appx
 ```
 Get-AppxPackage | Select Name, PackageFullName | Out-Host
 ```
