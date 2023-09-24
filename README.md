@@ -18,3 +18,9 @@ $Shortcut = $WshShell.CreateShortcut("$Home\AppData\Roaming\Microsoft\Windows\St
 $Shortcut.TargetPath = "$Home\caps-to-change-input-languages-autohotkey\CapsToChangeInputLanguage.ahk"
 $Shortcut.Save()
 ```
+## wget
+```
+$WebClient=New-Object Net.WebClient; 
+$Uri='https://raw.githubusercontent.com/chubbyhippo/ahk/master/CapsToChangeInputLanguage.ahk';
+$WebClient.DownloadFile($Uri, "$Home\downloads\CapsToChangeInputLanguage.ahk");
+```
