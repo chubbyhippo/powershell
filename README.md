@@ -7,6 +7,10 @@ rm -fo -r
 ```
 Get-AppxPackage | Select Name, PackageFullName | Out-Host
 ```
+## display installed apps
+```
+winget list
+```
 ## create shortcut
 ```
 $WshShell = New-Object -comObject WScript.Shell
