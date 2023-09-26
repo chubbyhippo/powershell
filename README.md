@@ -28,3 +28,7 @@ $WebClient.DownloadFile($Uri, "$Home\downloads\CapsToChangeInputLanguage.ahk")
 ```
 Expand-Archive -Path $Home\downloads\windows-main.zip
 ```
+## run bat
+```
+cmd.exe -/c Run.bat
+```
