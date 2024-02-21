@@ -32,6 +32,10 @@ Expand-Archive -Path $Home\downloads\windows-main.zip
 ```
 cmd.exe -/c Run.bat
 ```
+## run remote script
+```
+irm https://something.ps1 | iex
+```
 ## as admin
 ```
 # Check to see if we are currently running "as Administrator"
