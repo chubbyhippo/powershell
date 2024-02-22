@@ -40,9 +40,3 @@ irm https://something.ps1 | iex
 ```
 Set-Alias -Name docker -Value podman
 ```
-
-
-    # Exit from the current, unelevated, process
-    exit
-}
-```
