@@ -1,4 +1,8 @@
 # powershell
+## set execution policy 
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+```
 ## rm  -rf 
 ```
 rm -fo -r
