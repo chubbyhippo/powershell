@@ -36,6 +36,12 @@ cmd.exe -/c Run.bat
 ```
 irm https://something.ps1 | iex
 ```
+## set profile
+### as admin
+```
+New-Item -path $PROFILE.AllUsersAllHosts -type file -force
+notepad.exe $PROFILE.AllUsersAllHosts
+```
 ## alias
 ```
 Set-Alias -Name docker -Value podman
