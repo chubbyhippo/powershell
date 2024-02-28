@@ -3,6 +3,10 @@
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```
+## get process id
+```
+Get-Process -Name notepad
+```
 ## kill process
 ```
 Stop-Process -Id <ProcessId>
