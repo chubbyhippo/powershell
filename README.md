@@ -3,6 +3,10 @@
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```
+## kill process
+```
+Stop-Process -Id <ProcessId>
+```
 ## rm  -rf 
 ```
 rm -fo -r
