@@ -58,3 +58,11 @@ notepad.exe $PROFILE.AllUsersAllHosts
 ```
 Set-Alias -Name docker -Value podman
 ```
+## symlink
+```
+New-Item -ItemType SymbolicLink -Path $PROFILE -Target .\dotfiles\Microsoft.PowerShell_profile.ps1
+```
+## remove symlink
+```
+Remove-Item -Path $PROFILE
+```
